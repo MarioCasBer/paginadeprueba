@@ -1,0 +1,71 @@
+:root {
+    --color-white: #f3f3f3;
+    --color-background: rgba(58, 58, 158, 0.8);
+    --color-container: rgba(44, 30, 85, 0.6);
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: var(--color-background);
+    color: var(--color-white);
+}
+
+header{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container{
+    background-color: var(--color-container);
+    width: fit-content;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+label{
+    display: block;
+}
+
+.selections{
+    margin: 0;
+    padding: 0;
+}
+
+fieldset{
+    padding: 5px 0 5px 0;
+    border: none;
+}
+
+fieldset p{
+    margin: 5px 0;
+}
+
+fieldset label{
+    margin-bottom: 3px;
+}
+
+.data-section input{
+    height: 20px;
+    width: 95%;
+    margin: 5px 2px 20px 2px;
+    border-radius: 5px;
+}
+
+#dropdown{
+    height: 20px;
+    width: max-content;
+    margin: 5px 0 10px 2px;
+    border-radius: 5px;
+}
+
+.next-learning {
+}
+
+textarea{
+    width: 95%;
+    height: 52px;
+    margin: 10px 2px 5px 2px;
+    background-color: var(--color-white);
+}
+
